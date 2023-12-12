@@ -13,3 +13,11 @@ GNN-Analysis/
 ├─ requirements.txt
 ├─ run.py
 ```
+# Usage
+1. Clone this repository on your local machine
+2. Open your terminal
+3. Change (cd) into the directory to the cloned repository
+4. Type  ``` pip install -r requirements.txt```. This contains all the necessary packages for running the code.
+5. Use run.py to execute the code. Type  ```python run.py {specify model  to run}``` Where it says {insert query here}, replace this with GCN, GAT, GIN, or GPS and only the specified model will be trained and tested on all of the datasets. If no model is specified and you just type ```python run.py```, all of the models will be trained and tested on all of the datasets.
+
+Note that training and testing of modes on the PascalVOC-SP dataset will take ~5 minutes to due to the number of graphs as well as the size of each graph in the dataset.
