@@ -12,5 +12,4 @@ GNN-Analysis/
 ├─ graphGPS.py
 ├─ requirements.txt
 ├─ run.py
-
 ```
