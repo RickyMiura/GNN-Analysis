@@ -5,6 +5,7 @@ This project is part of my Data Science capstone during my undergraduate program
 The repository is organized as follows:
 ```
 GNN-Analysis/
+├─ DSC_Capstone_Quarter_1_Project_Report
 ├─ GATv2.py
 ├─ GCN.py
 ├─ GIN.py
